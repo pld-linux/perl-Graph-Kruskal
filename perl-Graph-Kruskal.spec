@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Graph
-%define	pnam	Kruskal
+%define		pdir	Graph
+%define		pnam	Kruskal
 Summary:	Graph::Kruskal - Kruskal's algorithm for Minimal Spanning Trees in graphs
 Summary(pl):	Graph::Kruskal - algorytm Kruskala do tworzenia minimalnych drzew rozpinaj±cych w grafach
 Name:		perl-Graph-Kruskal
