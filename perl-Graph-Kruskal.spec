@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla Graph::Kruskal
 Name:		perl-Graph-Kruskal
 Version:	2.0
 Release:	9
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	04abf8673b5a6dcc865981a856fd0b7f
