@@ -3,7 +3,7 @@ Summary:	Graph-Kruskal perl module
 Summary(pl):	Modu³ perla Graph-Kruskal
 Name:		perl-Graph-Kruskal
 Version:	2.0
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
