@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Graph
 %define	pnam	Kruskal
-%include	/usr/lib/rpm/macros.perl
 Summary:	Graph-Kruskal perl module
 Summary(pl):	Modu³ perla Graph-Kruskal
 Name:		perl-Graph-Kruskal
 Version:	2.0
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Graph-Kruskal - Kruskal's Algorithm.
 Graph-Kruskal - algorytm Kruskala.
 
 %prep
-%setup -q -n Graph-Kruskal-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
