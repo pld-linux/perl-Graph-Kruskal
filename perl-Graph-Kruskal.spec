@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Graph
 %define	pnam	Kruskal
-Summary:	Graph-Kruskal perl module
-Summary(pl):	Modu³ perla Graph-Kruskal
+Summary:	Graph::Kruskal perl module
+Summary(pl):	Modu³ perla Graph::Kruskal
 Name:		perl-Graph-Kruskal
 Version:	2.0
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Graph-Kruskal - Kruskal's Algorithm.
+Graph::Kruskal - Kruskal's Algorithm.
 
 %description -l pl
-Graph-Kruskal - algorytm Kruskala.
+Graph::Kruskal - algorytm Kruskala.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
