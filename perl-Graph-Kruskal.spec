@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Graph
 %define	pnam	Kruskal
-Summary:	Graph::Kruskal perl module
-Summary(pl):	Modu³ perla Graph::Kruskal
+Summary:	Graph::Kruskal - Kruskal's algorithm for Minimal Spanning Trees in graphs
+Summary(pl):	Graph::Kruskal - algorytm Kruskala do tworzenia minimalnych drzew czê¶ciowych w grafach
 Name:		perl-Graph-Kruskal
 Version:	2.0
 Release:	9
@@ -17,10 +17,18 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Graph::Kruskal - Kruskal's Algorithm.
+Graph::Kruskal Perl module implements the Kruskal's algorithm for
+Minimal Spanning Trees in graphs.
+
+Computes the Minimal Spanning Tree of a given graph according to some
+cost function defined on the edges of the graph.
 
 %description -l pl
-Graph::Kruskal - algorytm Kruskala.
+Modu³ Perla Graph::Kruskal stanowi implementacjê algorytmu Kruskala do
+tworzenia minimalnych drzew czê¶ciowych w grafach.
+
+Oblicza minimalne drzewo czê¶ciowe dla zadanego grafu w odniesieniu do
+pewnej funkcji kosztu zdefiniowanej dla sk³adowych grafu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
