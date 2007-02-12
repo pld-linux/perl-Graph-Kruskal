@@ -2,7 +2,7 @@
 %define		pdir	Graph
 %define		pnam	Kruskal
 Summary:	Graph::Kruskal - Kruskal's algorithm for Minimal Spanning Trees in graphs
-Summary(pl):	Graph::Kruskal - algorytm Kruskala do tworzenia minimalnych drzew rozpinaj±cych w grafach
+Summary(pl.UTF-8):   Graph::Kruskal - algorytm Kruskala do tworzenia minimalnych drzew rozpinajÄ…cych w grafach
 Name:		perl-Graph-Kruskal
 Version:	2.0
 Release:	10
@@ -23,12 +23,12 @@ Minimal Spanning Trees in graphs.
 Computes the Minimal Spanning Tree of a given graph according to some
 cost function defined on the edges of the graph.
 
-%description -l pl
-Modu³ Perla Graph::Kruskal stanowi implementacjê algorytmu Kruskala do
-tworzenia minimalnych drzew rozpinaj±cych w grafach.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Graph::Kruskal stanowi implementacjÄ™ algorytmu Kruskala do
+tworzenia minimalnych drzew rozpinajÄ…cych w grafach.
 
-Oblicza minimalne drzewo rozpinaj±ce dla zadanego grafu w odniesieniu
-do pewnej funkcji kosztu zdefiniowanej dla krawêdzi grafu.
+Oblicza minimalne drzewo rozpinajÄ…ce dla zadanego grafu w odniesieniu
+do pewnej funkcji kosztu zdefiniowanej dla krawÄ™dzi grafu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
