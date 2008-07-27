@@ -5,7 +5,7 @@ Summary:	Graph::Kruskal - Kruskal's algorithm for Minimal Spanning Trees in grap
 Summary(pl.UTF-8):	Graph::Kruskal - algorytm Kruskala do tworzenia minimalnych drzew rozpinających w grafach
 Name:		perl-Graph-Kruskal
 Version:	2.0
-Release:	10
+Release:	11
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
