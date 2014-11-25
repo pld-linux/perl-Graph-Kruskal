@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Graph
 %define		pnam	Kruskal
+%include	/usr/lib/rpm/macros.perl
 Summary:	Graph::Kruskal - Kruskal's algorithm for Minimal Spanning Trees in graphs
 Summary(pl.UTF-8):	Graph::Kruskal - algorytm Kruskala do tworzenia minimalnych drzew rozpinających w grafach
 Name:		perl-Graph-Kruskal
@@ -11,8 +11,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	04abf8673b5a6dcc865981a856fd0b7f
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Graph-Kruskal/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
